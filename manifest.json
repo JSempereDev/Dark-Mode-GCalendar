@@ -4,6 +4,8 @@
   "version": "1.0",
   "description": "Extension to add a dark mode to Google Calendar",
   "permissions": [
+    "tabs",
+    "storage",
     "tabs"
   ],
   "icons": {
