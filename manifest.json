@@ -1,8 +1,11 @@
 {
   "manifest_version": 3,
-  "name": "Mi primera extension de chrome",
+  "name": "Dark GCalendar",
   "version": "1.0",
-  "description": "Esta es mi primera extension de chrome",
+  "description": "Extension to add a dark mode to Google Calendar",
+  "permissions": [
+    "tabs"
+  ],
   "icons": {
     "16": "./img/icon16.png",
     "48": "./img/icon48.png",

@@ -1,5 +1,10 @@
-// var root = document.documentElement;
-// root.style.setProperty('--surface', '#27374D');
+function test(){
+  chrome.tabs.query({ active: true, lastFocusedWindow: true }, tabs => {
+    let url = tabs[0].url;
+    document.getElementById("URL").innerText = url;
+  });
+}
 
-var URL = window.location.href;
-console.log("Current URL: ", URL);
+
+var boton = document.getElementById("botonClicar")
+boton.addEventListener('click', test)
