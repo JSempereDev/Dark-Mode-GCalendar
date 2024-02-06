@@ -1,19 +1,17 @@
 {
+  "name": "Dark Gcalendar",
+  "description": "Inject JS to change the Google calendar",
+  "version": "0.0.0.1",
   "manifest_version": 3,
-  "name": "Dark GCalendar",
-  "version": "1.0",
-  "description": "Extension to add a dark mode to Google Calendar",
-  "permissions": [
-    "tabs",
-    "storage",
-    "tabs"
-  ],
-  "icons": {
-    "16": "./img/icon16.png",
-    "48": "./img/icon48.png",
-    "128": "./img/icon128.png"
-  },
-  "action": {
-    "default_popup": "./code/popup.html"
-  }
+  "content_scripts": [
+    {
+      "matches": [
+        "https://calendar.google.com/*",
+        "https://*.youtube.com/*"
+      ],
+      "js": [
+        "app.js"
+      ]
+    }
+  ]
 }
