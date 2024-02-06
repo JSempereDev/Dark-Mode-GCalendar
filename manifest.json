@@ -10,7 +10,7 @@
         "https://*.youtube.com/*"
       ],
       "js": [
-        "app.js"
+        "./code/main.js"
       ]
     }
   ]
