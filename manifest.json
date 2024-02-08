@@ -7,7 +7,6 @@
     {
       "matches": [
         "https://calendar.google.com/*",
-        "https://*.youtube.com/*"
       ],
       "js": [
         "./code/main.js"
