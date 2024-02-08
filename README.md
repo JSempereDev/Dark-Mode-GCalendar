@@ -4,7 +4,7 @@ For those who are tired of the white / light mode of the google calendar on the 
 
 
 ## Before
-![Light mode calendar](https://github.com/JSempereDev/Dark-Mode-GCalendar/tree/main/img/Light.png)
+![Light mode calendar](https://raw.githubusercontent.com/JSempereDev/Dark-Mode-GCalendar/main/img/README_img/Light.png)
 
 ## After
-![Dark mode calendar](https://github.com/JSempereDev/Dark-Mode-GCalendar/tree/main/img/Dark.png)
+![Dark mode calendar](https://raw.githubusercontent.com/JSempereDev/Dark-Mode-GCalendar/main/img/README_img/Dark.png)
